@@ -1,6 +1,5 @@
 *.DS_Store
 .python-version
-*.ipynb
 *.ipynb_checkpoints
 
 *__pycache__
@@ -12,3 +11,6 @@
 
 venv
 .idea
+
+models/*
+!models/README.md
