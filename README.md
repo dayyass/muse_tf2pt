@@ -22,7 +22,7 @@ The transfer of the model from TF Hub to **PyTorch** was carried out through man
 The model is available in [HF Models](https://huggingface.co/dayyass/universal-sentence-encoder-multilingual-large-3-pytorch/tree/main) directly through `torch` (*currently, without native support from the `transformers` library*).
 
 > [!IMPORTANT]
-> The model can be used not only for inference, but also for additional **training**.
+> **The model can be used not only for inference, but also for additional training**.
 
 Model initialization and usage code:
 ```python
