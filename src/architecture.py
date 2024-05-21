@@ -4,6 +4,10 @@ import torch
 
 
 class PositionalEncoding(torch.nn.Module):
+    """
+    https://pytorch.org/tutorials/beginner/transformer_tutorial.html
+    """
+
     def __init__(self, d_model: int, max_len: int = 512):
         super().__init__()
 
