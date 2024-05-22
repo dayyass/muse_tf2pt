@@ -5,7 +5,7 @@ This repository contains code to:
 1. Use these models using **PyTorch** and **ONNX**.
 
 > [!IMPORTANT]
-> **The PyTorch model can be used not only for inference, but also for additional training and fine-tuning**.
+> **The PyTorch model can be used not only for inference, but also for additional training and fine-tuning!**
 
 # Usage
 
