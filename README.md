@@ -4,6 +4,9 @@ This repository contains code to:
 1. Convert the mUSE (Multilingual Universal Sentence Encoder) transformer model from [TF Hub](https://www.kaggle.com/models/google/universal-sentence-encoder/tensorFlow2/multilingual-large) format to **PyTorch** and **ONNX** formats.
 1. Use these models using **PyTorch** and **ONNX**.
 
+> [!IMPORTANT]
+> **The PyTorch model can be used not only for inference, but also for additional training and fine-tuning**.
+
 # Usage
 
 ## ONNX
@@ -20,9 +23,6 @@ The model is available for download via the [link](https://huggingface.co/dayyas
 The transfer of the model from TF Hub to **PyTorch** was carried out through manual work of direct translation of the calculation graph (*you can visualize the ONNX version of the model via [Netron](https://netron.app/)*) to PyTorch. Notebooks [convert.ipynb](convert.ipynb) and [onnx_inference_and_debug.ipynb](onnx_inference_and_debug.ipynb) were used for conversion and debugging.
 
 The model is available in [HF Models](https://huggingface.co/dayyass/universal-sentence-encoder-multilingual-large-3-pytorch/tree/main) directly through `torch` (*currently, without native support from the `transformers` library*).
-
-> [!IMPORTANT]
-> **The model can be used not only for inference, but also for additional training**.
 
 Model initialization and usage code:
 ```python
